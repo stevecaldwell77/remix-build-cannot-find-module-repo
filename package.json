@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pnpm --filter shared-ui build && pnpm --filter my-remix-app build",
+    "dev": "pnpm --filter shared-ui build && pnpm --filter my-remix-app dev"
   },
   "keywords": [],
   "author": "",
