@@ -1,6 +1,9 @@
+import { Button } from "shared-ui";
+
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
+      <Button text={"shared-ui button"} />
       <h1>Welcome to Remix</h1>
       <ul>
         <li>
