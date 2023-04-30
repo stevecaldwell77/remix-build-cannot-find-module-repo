@@ -16,6 +16,9 @@ For example:
 
 ## Steps to reproduce
 
-1. Clone the repo.
-2. Run `pnpm i`.
-3. Run `pnpm dev` or `pnpm build` to see the warning message.
+```
+git clone https://github.com/stevecaldwell77/remix-build-cannot-find-module-repo.git
+cd remix-build-cannot-find-module-repo
+pnpm install
+(cd apps/my-remix-app && npx remix build)
+```
